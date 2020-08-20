@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="134588" started-at="2020-08-10T17:35:45 GST" finished-at="2020-08-10T17:37:59 GST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="134588" started-at="2020-08-10T17:35:45 GST" finished-at="2020-08-10T17:37:59 GST">
+      <class name="com.curio.tests.HomePageTests">
+        <test-method status="PASS" signature="intiateDriver()[pri:0, instance:com.curio.tests.HomePageTests@4ef27d66]" name="intiateDriver" is-config="true" duration-ms="7788" started-at="2020-08-10T17:36:43 GST" finished-at="2020-08-10T17:36:51 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateDriver -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.curio.tests.HomePageTests@4ef27d66]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-08-10T17:36:51 GST" finished-at="2020-08-10T17:36:51 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.curio.tests.HomePageTests.validateImgPresent()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateImgPresent()[pri:0, instance:com.curio.tests.HomePageTests@4ef27d66]" name="validateImgPresent" duration-ms="2769" started-at="2020-08-10T17:36:51 GST" description="Validate image is present on screen or not" finished-at="2020-08-10T17:36:53 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateImgPresent -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.curio.tests.HomePageTests@4ef27d66]" name="afterTest" is-config="true" duration-ms="6595" started-at="2020-08-10T17:36:53 GST" finished-at="2020-08-10T17:37:00 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.curio.tests.HomePageTests -->
+      <class name="com.curio.tests.FindOwnerPageTests">
+        <test-method status="PASS" signature="intiateDriver()[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="intiateDriver" is-config="true" duration-ms="8821" started-at="2020-08-10T17:37:00 GST" finished-at="2020-08-10T17:37:09 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateDriver -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="beforeClass" is-config="true" duration-ms="2" started-at="2020-08-10T17:37:09 GST" finished-at="2020-08-10T17:37:09 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="beforeMethod" is-config="true" duration-ms="3134" started-at="2020-08-10T17:37:09 GST" finished-at="2020-08-10T17:37:12 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.curio.tests.FindOwnerPageTests.validateAddPetFuctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateAddPetFuctionality()[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="validateAddPetFuctionality" duration-ms="42077" started-at="2020-08-10T17:37:12 GST" description="Validate added information should correct" finished-at="2020-08-10T17:37:54 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateAddPetFuctionality -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="beforeMethod" is-config="true" duration-ms="156" started-at="2020-08-10T17:37:54 GST" finished-at="2020-08-10T17:37:54 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.curio.tests.FindOwnerPageTests.validateSearchFunctionality()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateSearchFunctionality()[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="validateSearchFunctionality" duration-ms="689" started-at="2020-08-10T17:37:54 GST" description="Number of result should greater than 1 when owner is present" finished-at="2020-08-10T17:37:55 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFunctionality -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="beforeMethod" is-config="true" duration-ms="257" started-at="2020-08-10T17:37:55 GST" finished-at="2020-08-10T17:37:55 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.curio.tests.FindOwnerPageTests.validateownerAddedEditBtnDisplayed()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateownerAddedEditBtnDisplayed()[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="validateownerAddedEditBtnDisplayed" duration-ms="1516" started-at="2020-08-10T17:37:55 GST" description="Validate owner added,editowner button and addnewpet buttons should appear on page" finished-at="2020-08-10T17:37:57 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateownerAddedEditBtnDisplayed -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.curio.tests.FindOwnerPageTests@362a019c]" name="afterTest" is-config="true" duration-ms="2659" started-at="2020-08-10T17:37:57 GST" finished-at="2020-08-10T17:37:59 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.curio.tests.FindOwnerPageTests -->
+      <class name="com.curio.tests.VeterinariansPageTests">
+        <test-method status="PASS" signature="intiateDriver()[pri:0, instance:com.curio.tests.VeterinariansPageTests@303e3593]" name="intiateDriver" is-config="true" duration-ms="38240" started-at="2020-08-10T17:35:45 GST" finished-at="2020-08-10T17:36:23 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateDriver -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.curio.tests.VeterinariansPageTests@303e3593]" name="beforeClass" is-config="true" duration-ms="18" started-at="2020-08-10T17:36:23 GST" finished-at="2020-08-10T17:36:23 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.curio.tests.VeterinariansPageTests@303e3593]" name="beforeMethod" is-config="true" duration-ms="10262" started-at="2020-08-10T17:36:23 GST" finished-at="2020-08-10T17:36:33 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.curio.tests.VeterinariansPageTests.validateVenName()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateVenName()[pri:0, instance:com.curio.tests.VeterinariansPageTests@303e3593]" name="validateVenName" duration-ms="2480" started-at="2020-08-10T17:36:34 GST" description="Validate Veterinarians names" finished-at="2020-08-10T17:36:36 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateVenName -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.curio.tests.VeterinariansPageTests@303e3593]" name="beforeMethod" is-config="true" duration-ms="173" started-at="2020-08-10T17:36:37 GST" finished-at="2020-08-10T17:36:37 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.curio.tests.VeterinariansPageTests.validateVenSepcl()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="validateVenSepcl()[pri:0, instance:com.curio.tests.VeterinariansPageTests@303e3593]" name="validateVenSepcl" duration-ms="239" started-at="2020-08-10T17:36:37 GST" description="Validate Veterinarians specialities" finished-at="2020-08-10T17:36:37 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateVenSepcl -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.curio.tests.VeterinariansPageTests@303e3593]" name="afterTest" is-config="true" duration-ms="5547" started-at="2020-08-10T17:36:37 GST" finished-at="2020-08-10T17:36:43 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.curio.tests.VeterinariansPageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

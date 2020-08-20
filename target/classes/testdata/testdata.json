@@ -1,0 +1,42 @@
+{
+"veterinarians":[
+{"index":0,
+"name" : "James Carter",
+"Specialties" :"none"},
+
+{"index":1,
+"name" : "Helen Leary",
+"Specialties" :"radiology"},
+
+{"index":2,
+"name" : "Linda Douglas",
+"Specialties" :"dentistry surgery"},
+
+{"index":3,
+"name" : "Rafael Ortega",
+"Specialties" :"surgery"},
+
+{"index":4,
+"name" : "Henry Stevens",
+"Specialties" :"radiology"},
+
+
+{"index":5,
+"name" : "Sharon Jenkins",
+"Specialties" :"none"}
+],
+
+"owner info":{
+"firstname":"Automation",
+"lastname":"Test",
+"address":"Test",
+"city":"Dubai",
+"telephone":"1111111111"
+},
+
+"petinfo":{
+"name":"Pillu",
+"bithdate":"2020-01-01",
+"type":"dog"
+}
+}
